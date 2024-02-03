@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <title> PUP HDF</title>
+        <link rel="stylesheet" href="Activity.css">
+        <script src="Activity.js"></script>
+        
+    </head>
+    <body>
+
+        <div class="Title">
+            <img src="Logo.png" alt="Logo" width="100" height="100">
+            <div>
+            <h1> Polytechnic University of the Philippines</h1>
+            <h3> The Country's 1st PolytechnicU</h3>
+
+
+       <a href =https://www.pup.edu.ph> Click here to go to PUP Webpage</a>
+        </div>
+        </div>
+        
+       <div class="Header">
+        <h1><i>Health Declaration Form For Students</i></h1>
+        </div>
+        <div class="FirstPart">
+            <br>
+            <h2><i> PART I. STUDENT INFORMATION</i></h2>
+            <h4>Due to Covid-19 pandemic, physical examination, and chest x-ray submission as requirement for enrollment is
+                <br>
+                temporary deferred, however, you will be asked to comply with this upon resumption of your face-to-face classes.</h4>
+        </div>
+        
+        <form
+        name="dataform"
+        action="https://script.google.com/macros/s/AKfycbzmWodzWo33WTuoX6c9hLy0H9NriBcCi9zXglUNSkvZ712tk_apEgNmgZ2hSXxsce2u/exec"
+        onsubmit="return validateForm()"
+        method="post">
+        <br>
+            <label for="Last Name">Last Name: </label>
+            <input type="text" name ="Last Name" id = "Last Name">
+
+            <label for="First Name">First Name: </label>
+            <input type="text" name ="First Name" id = "First Name">
+
+            <label for="Middle Name">Middle Name: </label>
+            <input type="text" name ="Middle Name" id = "Middle Name">
+
+            <label for="Email">Email: </label>
+            <input type="text" name ="email" id = "Email">
+
+            <label for="Birth Date">Birth Date: </label>
+            <input type="date" name ="Birth Date" id = "Birth Date">
+
+            <label for="Student Number">Student Number: </label>
+            <input type="text" name ="Student Number" id = "Student Number">
+            
+            <label for="School Year">School Year: </label>
+            <input type="text" name ="School Year" id = "School Year">
+
+            <label for="Course">Course / College: </label>
+            <input type="text" name ="Course" id = "Course">
+
+            <label for="ParentGuardian">Parent's Name / Guardian: </label>
+            <input type="text" name ="ParentGuardian" id = "ParentGuardian">
+
+            <label for="ContactNumber">Contact Number: </label>
+            <input type="tel" name ="ContactNumber" id = "ContactNumber"  pattern="[0-9]{10}" placeholder="Enter 10-11 digit phone number" required>
+            
+            <br>
+
+            <H2><i>PART II. MEDICAL HISTORY</i></H2>
+
+            <br>
+
+            <div class="checkbox-group">
+                <h3>In the last 14 days have you experienced?</h3>
+                <br>
+                <input type="checkbox" name="Fever" id="Fever">
+                <label for="Fever"> Fever </label>
+    
+                <input type="checkbox" name="Cough" id="Cough">
+                <label for="Cough"> Cough </label>
+
+                <input type="checkbox" name="Cold" id="Cold">
+                <label for="Cold"> Cold </label>
+
+                <input type="checkbox" name="Headache" id="Headache">
+                <label for="Headache"> Headache </label>
+
+                <input type="checkbox" name="Asthma" id="Asthma">
+                <label for="Asthma"> Asthma </label>
+
+                <input type="checkbox" name="Pneumonia" id="Pneumonia">
+                <label for="Pneumonia"> Pneumonia </label>
+
+                <input type="checkbox" name="Migraine" id="Migraine">
+                <label for="Migraine"> Migraine </label>
+
+                <input type="checkbox" name="Heart Disease" id="Heart Disease">
+                <label for="Heart Disease"> Heart Disease </label>
+
+                <input type="checkbox" name="None" id="None">
+                <label for="None"> None </label>
+            
+                <br>
+                <br>
+                <h3>Have you tested positive for Covid-19 in the last 14 days?</h3>
+                <br>
+
+                <input type="radio" name="agree" value="yes" id="agreeYes">
+                <label for="agreeYes">Yes</label>
+
+                <input type="radio" name="agree" value="no" id="agreeNo">
+                <label for="agreeNo">No</label>
+
+                <br>
+                <br>
+                <h3>Have you been in contact with someone who tested postive for Covid - 19 in the past 14 days?</h3>
+                <br>
+
+                <input type="radio" name="confirm" value="yes" id="agreeYes">
+                <label for="confirmYes">Yes</label>
+
+                <input type="radio" name="confirm" value="no" id="agreeNo">
+                <label for="confirmNo">No</label>
+            </div>
+    
+            <br>
+
+            <input type="submit">
+            <input type="reset">
+            <br>
+
+        </form>
+    </body>
+</html>
+

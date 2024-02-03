@@ -1,0 +1,55 @@
+.Title {
+    display: flex;
+    align-items: center;
+    color: #ce0d0d;
+    background: rgba(255, 208, 0, 0.952)
+}
+
+.Title img {
+    margin-right: 10px;
+}
+.Title div {
+    margin: 0; /* Remove default margin */
+    }
+
+  h1, h3 {
+    margin: 0; /* Remove default margin for h1 and h6 */
+}
+
+.Header {
+
+    text-align: center;
+
+}
+
+body {
+    background-image: url('backg.jpg');
+    background-size: cover;
+    background-position: center; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.FirstPart {
+
+    text-align:center;
+
+}
+h2, h4 {
+    margin: 0; /* Remove default margin for h1 and h6 */
+}
+
+    form {
+        display: flex;
+        flex-direction: column;
+        max-width: 400px; /* Adjust the maximum width as needed */
+        margin: auto; /* Center the form horizontally */
+    }
+    
+    form label,
+    form input,
+    form radio {
+        margin-bottom: 5px; /* Add some space between the label and input */
+    }   
